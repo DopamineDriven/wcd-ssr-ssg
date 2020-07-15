@@ -69,3 +69,47 @@ PX|REM|TW
 
 ### Next Learn Starter Typescript
 - https://github.com/vercel/next-learn-starter/blob/master/typescript-final/package.json
+
+
+---
+## Styling considerations 
+
+- customize font family via 
+    - https://tailwindcss.com/docs/font-family/
+    - https://stackoverflow.com/questions/60854215/tailwind-use-font-from-local-files-globally
+        - https://fonts.google.com/specimen/Great+Vibes?query=great#about
+        - https://fonts.adobe.com/fonts/great-vibes#details-section
+
+- in tailwind.config.js
+```js
+module.exports = {
+//
+theme: {
+    extend: {
+        fontFamily: {
+            sans: ["great-vibes", "sans-serif"],
+            sans: [
+                'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji'
+            ],
+            serif: ['Georgia, Cambria, "Times New Roman", Times, serif'],
+            mono: [
+                'Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace'
+            ]
+        }
+    }
+    //
+}
+
+```
+- then, in styles/index.css
+```css
+@tailwind base;
+@font-face {
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Great Vibes'), local('GreatVibes-Regular'), url(https://fonts.gstatic.com/s/greatvibes/v7/RWmMoKWR9v4ksMfaWd_JN9XLiaQ6DQ.woff2) format('woff2');
+}
+```
+- note: might need to modify url to a local path to tailwind; might need to make format `tff` instead of `woff2`...
