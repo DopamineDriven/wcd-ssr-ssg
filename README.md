@@ -1,5 +1,8 @@
 # wcd-ssr-ssg
 
+## Next-TypeScript CheatSheet
+- https://www.saltycrane.com/cheat-sheets/typescript/next.js/latest/#next/document
+
 ## The Open Graph protocol
 - https://ogp.me/
 - https://github.com/vercel/og-image
@@ -24,7 +27,7 @@
 - source: https://gist.github.com/trevorgreenleaf/0aef4a3c33cdc8011affb170cef4384c
 
 PX|REM|TW
----|---|---|
+|---|---|---|
 4|0.25|1
 8|0.5|2
 16|1|4
