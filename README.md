@@ -1,4 +1,6 @@
 # wcd-ssr-ssg
+- To do
+    - Determine if antd and tailwind can co-exist 
 
 ## Next-TypeScript CheatSheet
 - https://www.saltycrane.com/cheat-sheets/typescript/next.js/latest/#next/document
