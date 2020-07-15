@@ -1,6 +1,11 @@
 type Author = {
-	name: string;
-	picture: string;
+    name: string;
+    role: string;
+    image: string;
+    email: string;
+    github: string;
+    twitter: string;
+    linkedin: string;
 };
 
 export default Author;
