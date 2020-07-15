@@ -8,6 +8,9 @@
 - https://github.com/vercel/og-image
 - https://og-image.now.sh/
 
+## MD GUIDE
+- https://www.markdownguide.org/basic-syntax/#:~:text=To%20emphasize%20text%20with%20bold,without%20spaces%20around%20the%20letters.
+
 ## Content
 - remark and remark-html convert md file content into html and pass it down as a prop to the pages
 - metadata of every md file is handled by gray-matter and passed as props to the pages
@@ -62,3 +65,7 @@ PX|REM|TW
 - rem &rarr; root ephemeral unit
     - rem uses the root element of the page for its threshold (such as an `<html>` tag)
 - https://www.webhostdesignpost.com/webdesign/css-sizing-differences.html
+
+
+### Next Learn Starter Typescript
+- https://github.com/vercel/next-learn-starter/blob/master/typescript-final/package.json
