@@ -17,3 +17,5 @@ export default class MyDocument extends Document {
 		);
 	}
 }
+
+// https://github.com/vercel/next.js/blob/v9.4.4/packages/next/pages/_document.tsx

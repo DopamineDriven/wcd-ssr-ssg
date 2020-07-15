@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { NextPageContext } from "next";
+import Link from "next/link";
 
 const statusCodes: { [code: number]: string } = {
 	400: "Bad Request",
@@ -51,6 +52,9 @@ export default class Error<P = {}> extends React.Component<P & ErrorProps> {
 					{statusCode ? <h1 style={styles.h1}>{statusCode}</h1> : null}
 					<div style={styles.desc}>
 						<h2 style={styles.h2}>{title}.</h2>
+						<Link href="/">
+							<a>&rarr;&nbsp;Return Home&nbsp;&larr;</a>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -75,8 +79,8 @@ const styles: { [k: string]: React.CSSProperties } = {
 	desc: {
 		display: "inline-block",
 		textAlign: "left",
-		lineHeight: "49px",
-		height: "49px",
+		lineHeight: "100px",
+		height: "100px",
 		verticalAlign: "middle"
 	},
 
@@ -97,5 +101,15 @@ const styles: { [k: string]: React.CSSProperties } = {
 		lineHeight: "inherit",
 		margin: 0,
 		padding: 0
+	},
+	a: {
+		fontSize: "12px",
+		fontWeight: "normal",
+		lineHeight: "inherit",
+		color: "#387af5",
+		margin: 0,
+		padding: 0
 	}
 };
+
+//https://github.com/vercel/next.js/blob/v9.4.4/packages/next/pages/_error.tsx
