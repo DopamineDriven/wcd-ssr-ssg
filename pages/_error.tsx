@@ -48,16 +48,15 @@ export default class Error<P = {}> extends React.Component<P & ErrorProps> {
 					</title>
 				</Head>
 				<div>
-					<style dangerouslySetInnerHTML={{ __html: "body { margin: 0 }" }} />
-					{statusCode ? <h1 style={styles.h1}>{statusCode}</h1> : null}
-					<div style={styles.desc}>
-						<h2 style={styles.h2}>{title}.</h2>
-						<Link href="/">
-							<a>&rarr;&nbsp;Return Home&nbsp;&larr;</a>
-						</Link>
-					</div>
+				<style dangerouslySetInnerHTML={{ __html: "body { margin: 0 }" }} />
+				{statusCode ? <h1 style={styles.h1}>{statusCode}</h1> : null}
+				<div style={styles.desc}>
+					<Link href="/">
+						<a style={styles.a}>&rarr;&nbsp;{title}&nbsp;&larr;</a>
+					</Link>
 				</div>
 			</div>
+		</div>
 		);
 	}
 }
@@ -92,18 +91,10 @@ const styles: { [k: string]: React.CSSProperties } = {
 		padding: "10px 23px 10px 0",
 		fontSize: "24px",
 		fontWeight: 500,
-		verticalAlign: "top"
-	},
-
-	h2: {
-		fontSize: "14px",
-		fontWeight: "normal",
-		lineHeight: "inherit",
-		margin: 0,
-		padding: 0
+		verticalAlign: "middle"
 	},
 	a: {
-		fontSize: "12px",
+		fontSize: "14px",
 		fontWeight: "normal",
 		lineHeight: "inherit",
 		color: "#387af5",
