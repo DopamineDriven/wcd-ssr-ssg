@@ -5,6 +5,9 @@
 - metadata of every md file is handled by gray-matter and passed as props to the pages
 
 ## Tailwindcss
+- Purge
+    - Tailwind has a purge option which removes unused css
+        - this controls the generated stylesheet's filesize 
 - Width
     - https://tailwindcss.com/docs/width/
 - Height
