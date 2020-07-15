@@ -1,5 +1,10 @@
 # wcd-ssr-ssg
 
+## The Open Graph protocol
+- https://ogp.me/
+- https://github.com/vercel/og-image
+- https://og-image.now.sh/
+
 ## Content
 - remark and remark-html convert md file content into html and pass it down as a prop to the pages
 - metadata of every md file is handled by gray-matter and passed as props to the pages
