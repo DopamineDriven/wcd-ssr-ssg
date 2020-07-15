@@ -113,3 +113,4 @@ theme: {
 }
 ```
 - note: might need to modify url to a local path to tailwind; might need to make format `tff` instead of `woff2`...
+- going to visit https://fonts.adobe.com/typekit and research overriding default themes in tailwind more thoroughly
