@@ -1,5 +1,9 @@
 @tailwind base;
-
+@font-face {
+	font-family: Proxima Nova;
+	font-weight: 500;
+	src: url((https://fonts.googleapis.com/css2?family=Great%20Vibes&display=swap) format("greatVibes");
+}
 /* Write custom base styles here */
 
 /* Start purging... */
