@@ -9,7 +9,7 @@ const Meta = () => {
 				sizes="180x180"
 				href="/favicon/apple-touch-icon.png"
 			/>
-			<link
+			{/* <link
 				rel="icon"
 				type="image/png"
 				sizes="32x32"
@@ -20,7 +20,7 @@ const Meta = () => {
 				type="image/png"
 				sizes="16x16"
 				href="/favicon/favicon-16x16.png"
-			/>
+			/> */}
 			<link rel="manifest" href="/favicon/site.webmanifest" />
 			<link
 				rel="mask-icon"
@@ -34,7 +34,7 @@ const Meta = () => {
 			<link rel="alternate" type="application/rss+xml" href="/feed.xml" />
 			<meta
 				name="description"
-				content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
+				content={`Static Site Generation via Next.js and ${CMS_NAME}.`}
 			/>
 			<meta property="og:image" content={HOME_OG_IMAGE_URL} />
 		</Head>
