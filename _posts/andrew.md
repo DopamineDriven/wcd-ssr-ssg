@@ -5,12 +5,12 @@ excerpt: '"The mechanic that would perfect his work must first sharpen his tools
 coverImage: '/assets/andrew/Schlehdorf.jpg' 
 author:
 	name: "Andrew Ross"
-	role: "CTO"
+	# role: "CTO"
 	image: '/assets/authors/Andrew.png'
-	email: "andrew@windycitydevs.io"
-	github: "https://github.com/DopamineDriven"
-	twitter: "https://twitter.com/Dopamine_Driven"
-	linkedin: "https://www.linkedin.com/in/asross/"
+	# email: "andrew@windycitydevs.io"
+	# github: "https://github.com/DopamineDriven"
+	# twitter: "https://twitter.com/Dopamine_Driven"
+	# linkedin: "https://www.linkedin.com/in/asross/"
 opImage: 
 	url: '/assets/andrew/Schlehdorf.jpg'
 ---

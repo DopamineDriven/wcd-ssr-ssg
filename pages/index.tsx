@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import Head from "next/head";
 import Post from "../types/posts";
 import { getAllPosts } from "../lib/api";
@@ -9,11 +8,15 @@ import HeroPost from "../components/heroPost";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
 
-const Index = ({ allPosts }: { allPosts: Post[] }) => {
+type IndexProps = {
+	allPosts: Post[];
+};
+
+const Index = ({ allPosts }: IndexProps) => {
 	const heroPost = allPosts[0];
 	const morePosts = allPosts.slice(1);
 	return (
-		<Fragment>
+		<>
 			<Layout>
 				<Head>
 					<title>SSG via Next.js and {CMS_NAME}</title>
@@ -33,7 +36,7 @@ const Index = ({ allPosts }: { allPosts: Post[] }) => {
 					{morePosts.length > 0 && <MorePosts posts={morePosts} />}
 				</Container>
 			</Layout>
-		</Fragment>
+		</>
 	);
 };
 

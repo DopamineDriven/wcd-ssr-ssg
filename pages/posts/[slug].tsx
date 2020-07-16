@@ -1,5 +1,3 @@
-import { Fragment } from "react";
-import { GetStaticPaths, GetStaticProps } from "next";
 import { useRouter } from "next/router";
 import ErrorPage from "../_error";
 import Container from "../../components/container";
@@ -11,7 +9,6 @@ import { getPostBySlug, getAllPosts } from "../../lib/api";
 import PostTitle from "../../components/postTitle";
 import Head from "next/head";
 import { CMS_NAME } from "../../lib/constants";
-import mdToHtml from "../../lib/mdToHtml";
 import PostType from "../../types/posts";
 import markdownToHtml from "../../lib/mdToHtml";
 
@@ -34,7 +31,7 @@ const Post = ({
 				{router.isFallback ? (
 					<PostTitle>🐜🐜🐜Loading🐜🐜🐜</PostTitle>
 				) : (
-					<Fragment>
+					<>
 						<article className="mb-32">
 							<Head>
 								<title>
@@ -49,7 +46,7 @@ const Post = ({
 							/>
 							<PostBody content={post.content} />
 						</article>
-					</Fragment>
+					</>
 				)}
 			</Container>
 		</Layout>
@@ -58,9 +55,13 @@ const Post = ({
 
 export default Post;
 
-export const getStaticProps = async ({
-	params
-}: GetStaticProps & { params: { slug: string } }) => {
+type Params = {
+	params: {
+		slug: string;
+	};
+};
+
+export async function getStaticProps({ params }: Params) {
 	const post = getPostBySlug(params.slug, [
 		"title",
 		"date",
@@ -70,7 +71,7 @@ export const getStaticProps = async ({
 		"opImage",
 		"coverImage"
 	]);
-	const content = await mdToHtml(post.content || "");
+	const content = await markdownToHtml(post.content || "");
 
 	return {
 		props: {
@@ -80,9 +81,9 @@ export const getStaticProps = async ({
 			}
 		}
 	};
-};
+}
 
-export const getStaticPaths = async ({}: GetStaticPaths) => {
+export async function getStaticPaths() {
 	const posts = getAllPosts(["slug"]);
 
 	return {
@@ -95,4 +96,4 @@ export const getStaticPaths = async ({}: GetStaticPaths) => {
 		}),
 		fallback: false
 	};
-};
+}

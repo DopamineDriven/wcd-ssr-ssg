@@ -1,3 +1,5 @@
+
+
 const Avatar = ({ name, image }: { name: string; image: string }) => {
 	return (
 		<div className="flex items-center">

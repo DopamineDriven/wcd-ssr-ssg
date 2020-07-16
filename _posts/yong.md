@@ -5,12 +5,12 @@ excerpt: 'Juggling all the stacks while Waffle attacks'
 coverImage: '/assets/yong/Thjorsa.jpg' 
 author:
 	name: "Yong Lee"
-	role: "CEO"
+	# role: "CEO"
 	image: '/assets/authors/Yong.png'
-	email: "yong@windycitydevs.io"
-	github: "https://github.com/yhlee-dho"
-	twitter: "https://twitter.com/YongLee08380800"
-	linkedin: "https://www.linkedin.com/in/yong-lee-a16430193/"
+	# email: "yong@windycitydevs.io"
+	# github: "https://github.com/yhlee-dho"
+	# twitter: "https://twitter.com/YongLee08380800"
+	# linkedin: "https://www.linkedin.com/in/yong-lee-a16430193/"
 opImage: 
 	url: '/assets/yong/Thjorsa.jpg'
 ---

@@ -5,12 +5,12 @@ excerpt: 'Sometimes it really do be like that'
 coverImage: '/assets/joe/PerceRock.jpg' 
 author:
 	name: "Joe Shields"
-	role: "CEO"
+	# role: "CEO"
 	image: '/assets/authors/Joe.jpg'
-	email: "joe@windycitydevs.io"
-	github: "https://github.com/JShields30"
-	twitter: "https://twitter.com/JShields312"
-	linkedin: "https://www.linkedin.com/in/jshields90/"
+	# email: "joe@windycitydevs.io"
+	# github: "https://github.com/JShields30"
+	# twitter: "https://twitter.com/JShields312"
+	# linkedin: "https://www.linkedin.com/in/jshields90/"
 opImage: 
 	url: '/assets/joe/PerceRock.jpg'
 ---
