@@ -29,6 +29,10 @@ module.exports = {
 				"6x1": "2.75rem", // 11tw; 44px
 				"7x1": "4.5rem", // 18tw; 72px
 				"8x1": "6.25rem" // 25tw; 100px
+			},
+			boxShadow: {
+				small: "0 5px 10px rgba(0, 0, 0, 0.12)",
+				medium: "0 8px 30px rgna(0, 0, 0, 0.12)"
 			}
 		}
 	}

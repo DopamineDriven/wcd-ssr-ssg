@@ -11,7 +11,7 @@
 		"build": "next build",
 		"start": "next start",
     "typecheck": "tsc",
-    "format": "prettier --write 'src/**/*.{ts,tsx,js,json,css,md}'"
+    "format": "prettier --write './**/*.{ts,tsx,js,json,css,md}'"
 	},
 	"dependencies": {
 		"classnames": "^2.2.6",
