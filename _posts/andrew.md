@@ -6,7 +6,7 @@ coverImage: '/assets/andrew/Schlehdorf.jpg'
 author:
 	name: "Andrew Ross"
 	# role: "CTO"
-	image: '/assets/authors/Andrew.png'
+	picture: '/assets/authors/Andrew.png'
 	# email: "andrew@windycitydevs.io"
 	# github: "https://github.com/DopamineDriven"
 	# twitter: "https://twitter.com/Dopamine_Driven"

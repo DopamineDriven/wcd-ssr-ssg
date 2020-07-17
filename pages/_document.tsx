@@ -1,10 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 export default class MyDocument extends Document {
-	// static async getInitialProps(ctx) {
-	// 	const initialProps = await Document.getInitialProps(ctx);
-	// 	return { ...initialProps };
-	// }
 	render() {
 		return (
 			<Html lang="en">
@@ -19,3 +15,10 @@ export default class MyDocument extends Document {
 }
 
 // https://github.com/vercel/next.js/blob/v9.4.4/packages/next/pages/_document.tsx
+
+/*
+	// static async getInitialProps(ctx) {
+	// 	const initialProps = await Document.getInitialProps(ctx);
+	// 	return { ...initialProps };
+	// }
+*/

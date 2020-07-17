@@ -6,7 +6,7 @@ coverImage: '/assets/joe/PerceRock.jpg'
 author:
 	name: "Joe Shields"
 	# role: "CEO"
-	image: '/assets/authors/Joe.jpg'
+	picture: '/assets/authors/Joe.jpg'
 	# email: "joe@windycitydevs.io"
 	# github: "https://github.com/JShields30"
 	# twitter: "https://twitter.com/JShields312"

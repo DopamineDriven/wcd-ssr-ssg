@@ -1,10 +1,10 @@
 import Head from "next/head";
-import Post from "../types/posts";
+import Post from "../types/post";
 import { getAllPosts } from "../lib/api";
 import { CMS_NAME } from "../lib/constants";
 import Container from "../components/container";
-import MorePosts from "../components/morePosts";
-import HeroPost from "../components/heroPost";
+import MoreStories from "../components/more-stories";
+import HeroPost from "../components/hero-post";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
 
@@ -33,7 +33,7 @@ const Index = ({ allPosts }: IndexProps) => {
 							excerpt={heroPost.excerpt}
 						/>
 					)}
-					{morePosts.length > 0 && <MorePosts posts={morePosts} />}
+					{morePosts.length > 0 && <MoreStories posts={morePosts} />}
 				</Container>
 			</Layout>
 		</>

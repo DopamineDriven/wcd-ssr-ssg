@@ -1,5 +1,5 @@
 import Avatar from "./avatar";
-import DateFormater from "./dateFormatter";
+import DateFormater from "./date-formatter";
 import CoverImage from "./coverImage";
 import Link from "next/link";
 import Author from "../types/author";
@@ -39,7 +39,7 @@ const HeroPost = ({
 				</div>
 				<div>
 					<p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-					<Avatar name={author.name} image={author.image} />
+					<Avatar name={author.name} picture={author.picture} />
 				</div>
 			</div>
 		</section>

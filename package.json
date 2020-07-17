@@ -1,11 +1,9 @@
 {
 	"name": "wcd-ssr-ssg",
 	"version": "1.0.0",
-	"main": "index.js",
 	"repository": "https://github.com/DopamineDriven/wcd-ssr-ssg.git",
 	"author": "Andrew Ross <andrew.simpson.ross@gmail.com>",
 	"license": "MIT",
-	"private": true,
 	"scripts": {
 		"dev": "next",
 		"build": "next build",

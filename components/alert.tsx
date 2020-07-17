@@ -7,6 +7,7 @@ type Props = {
 };
 
 const Alert = ({ preview }: Props) => {
+	const currentYear = new Date().getFullYear();
 	return (
 		<div
 			className={cn("border-b", {
@@ -18,25 +19,17 @@ const Alert = ({ preview }: Props) => {
 				<div className="py-2 text-center text-sm">
 					{preview ? (
 						<>
-							This is page is a preview.{" "}
 							<a
-								href="/api/exit-preview"
-								className="underline hover:text-cyan duration-200 transition-colors"
-							>
-								Click here
-							</a>{" "}
-							to exit preview mode.
+								href="https://github.com/DopamineDriven/windycitydevs"
+								target="__blank"
+							>{`© ${currentYear}`}</a>
 						</>
 					) : (
 						<>
-							The source code for this website is{" "}
 							<a
-								href={`https://github.com/DopamineDriven/${EXAMPLE_PATH}`}
-								className="underline hover:text-success duration-200 transition-colors"
-							>
-								available on GitHub
-							</a>
-							.
+								href="https://github.com/DopamineDriven/windycitydevs"
+								target="__blank"
+							>{`©${currentYear}`}</a>
 						</>
 					)}
 				</div>
@@ -44,5 +37,6 @@ const Alert = ({ preview }: Props) => {
 		</div>
 	);
 };
+
 
 export default Alert;

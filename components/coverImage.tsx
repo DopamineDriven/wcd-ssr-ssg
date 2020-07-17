@@ -1,15 +1,17 @@
 import cn from "classnames";
 import Link from "next/link";
 
+type Props =  {
+	title: string;
+	src: string;
+	slug?: string;
+}
+
 const CoverImage = ({
 	title,
 	src,
 	slug
-}: {
-	title: string;
-	src: string;
-	slug?: string;
-}) => {
+}: Props) => {
 	const image = (
 		<img
 			src={src}

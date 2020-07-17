@@ -1,11 +1,11 @@
 @tailwind base;
-@font-face {
+/* @font-face {
     font-family: 'Great Vibes';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
     src: local('Great Vibes'), local('GreatVibes-Regular'), url(https://fonts.gstatic.com/s/greatvibes/v7/RWmMoKWR9v4ksMfaWd_JN9XLiaQ6DQ.woff2) format('woff2');
-}
+} */
 /* Write custom base styles here */
 
 /* Start purging... */
