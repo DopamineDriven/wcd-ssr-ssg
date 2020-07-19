@@ -1,23 +1,18 @@
 ---
 title: 'JAMstack enthusiast, lover of TypeScript, Driven to 🐜🐜🐜BUILD🐜🐜🐜'
-date: '2020-07-15T05:35:07.322Z'
 excerpt: '"The mechanic that would perfect his work must first sharpen his tools." - Confucius'
-coverImage: '/assets/andrew/Schlehdorf.jpg' 
+coverImage: '/assets/next-jamstack.jpg'
+date: "2020-07-19T08:35:07.322Z"
 author:
-	name: "Andrew Ross"
-	# role: "CTO"
-	picture: '/assets/authors/Andrew.png'
-	# email: "andrew@windycitydevs.io"
-	# github: "https://github.com/DopamineDriven"
-	# twitter: "https://twitter.com/Dopamine_Driven"
-	# linkedin: "https://www.linkedin.com/in/asross/"
-opImage: 
-	url: '/assets/andrew/Schlehdorf.jpg'
+  name: Andrew Ross
+  picture: '/assets/andrew.jpg'
+ogImage:
+  url: '/assets/next-jamstack.jpg'
 ---
 
 ## Overview
 
-First and foremost, TypeScript puts the super in superset, especially in a team environment. As far as primary prebuilts are concerened, the `Next.js` framework is top-notch. It's versatility insofar as development environments supported makes it a one-size-fits-all solution. It saves time, streamlines optimization, and is blazing fast to enhance end-user experience. Not to mention its edge-network sidekick, Vercel, which simplifies the process of deployment and is mind-boggling fast.
+First and foremost, TypeScript puts the super in superset, especially in a team environment. As far as primary prebuilts are concerened, the "Next.js" framework is top-notch. It's versatility insofar as development environments supported makes it a one-size-fits-all solution. It saves time, streamlines optimization, and is blazing fast to enhance end-user experience. Not to mention its edge-network sidekick, Vercel, which simplifies the process of deployment and is mind-boggling fast.
 
 ## TypeScript
 

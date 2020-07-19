@@ -20,14 +20,14 @@ const Alert = ({ preview }: Props) => {
 					{preview ? (
 						<>
 							<a
-								href="https://github.com/DopamineDriven/windycitydevs"
+								href={`https://github.com/DopamineDriven/${EXAMPLE_PATH}`}
 								target="__blank"
 							>{`© ${currentYear}`}</a>
 						</>
 					) : (
 						<>
 							<a
-								href="https://github.com/DopamineDriven/windycitydevs"
+								href={`https://github.com/DopamineDriven/${EXAMPLE_PATH}`}
 								target="__blank"
 							>{`©${currentYear}`}</a>
 						</>

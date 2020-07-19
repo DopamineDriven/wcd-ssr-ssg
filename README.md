@@ -118,3 +118,58 @@ theme: {
 ```
 - note: might need to modify url to a local path to tailwind; might need to make format `tff` instead of `woff2`...
 - going to visit https://fonts.adobe.com/typekit and research overriding default themes in tailwind more thoroughly
+
+
+
+
+```yml
+title: 'JAMstack enthusiast, lover of TypeScript, Driven to 🐜🐜🐜BUILD🐜🐜🐜'
+date: '2020-07-15T05:35:07.322Z'
+excerpt: '"The mechanic that would perfect his work must first sharpen his tools." - Confucius'
+coverImage: '/assets/next-jamstack.jpg' 
+author:
+	name: Andrew Ross
+	# role: "CTO"
+	picture: '/assets/andrew.jpg'
+	# email: "andrew@windycitydevs.io"
+	# github: "https://github.com/DopamineDriven"
+	# twitter: "https://twitter.com/Dopamine_Driven"
+	# linkedin: "https://www.linkedin.com/in/asross/"
+opImage: 
+	url: '/assets/next-jamstack.jpg'
+
+
+---
+title: "Deviant Designer, Guitar Strummer, Technopreneur"
+date: '2020-07-15T04:35:07.322Z'
+excerpt: 'Sometimes it really do be like that'
+coverImage: '/assets/next-jamstack.jpg' 
+author:
+	name: Joe Shields
+	# role: "CEO"
+	picture: '/assets/joe.jpg'
+	# email: "joe@windycitydevs.io"
+	# github: "https://github.com/JShields30"
+	# twitter: "https://twitter.com/JShields312"
+	# linkedin: "https://www.linkedin.com/in/jshields90/"
+opImage: 
+	url: '/assets/next-jamstack.jpg'
+---
+
+---
+title: "Discord Bots, Keeper of Waffle, Technophile"
+date: '2020-07-15T04:36:07.322Z'
+excerpt: 'Juggling all the stacks while Waffle attacks'
+coverImage: '/assets/next-jamstack.jpg' 
+author:
+	name: Yong Lee
+	# role: "COO"
+	picture: '/assets/yong.jpg'
+	# email: "yong@windycitydevs.io"
+	# github: "https://github.com/yhlee-dho"
+	# twitter: "https://twitter.com/YongLee08380800"
+	# linkedin: "https://www.linkedin.com/in/yong-lee-a16430193/"
+opImage: 
+	url: '/assets/next-jamstack.jpg'
+---
+```

@@ -1,18 +1,13 @@
 ---
 title: "Deviant Designer, Guitar Strummer, Technopreneur"
-date: '2020-07-15T04:35:07.322Z'
-excerpt: 'Sometimes it really do be like that'
-coverImage: '/assets/joe/PerceRock.jpg' 
+excerpt: '"A leader gives articulation of the imagination of the population" - Jordan Peterson'
+coverImage: '/assets/next-jamstack.jpg'
+date: "2020-07-18T09:08:07.322Z"
 author:
-	name: "Joe Shields"
-	# role: "CEO"
-	picture: '/assets/authors/Joe.jpg'
-	# email: "joe@windycitydevs.io"
-	# github: "https://github.com/JShields30"
-	# twitter: "https://twitter.com/JShields312"
-	# linkedin: "https://www.linkedin.com/in/jshields90/"
-opImage: 
-	url: '/assets/joe/PerceRock.jpg'
+  name: Joe Shields
+  picture: '/assets/joe.jpg'
+ogImage:
+  url: '/assets/next-jamstack.jpg'
 ---
 
 ## Programmers

@@ -1,6 +1,6 @@
 import Avatar from "./avatar";
 import DateFormater from "./date-formatter";
-import CoverImage from "./coverImage";
+import CoverImage from "./cover-image";
 import PostTitle from "./post-title";
 import Author from "../types/author";
 

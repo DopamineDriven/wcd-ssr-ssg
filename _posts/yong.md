@@ -1,18 +1,13 @@
 ---
 title: "Discord Bots, Keeper of Waffle, Technophile"
-date: '2020-07-15T04:36:07.322Z'
 excerpt: 'Juggling all the stacks while Waffle attacks'
-coverImage: '/assets/yong/Thjorsa.jpg' 
+coverImage: '/assets/next-jamstack.jpg'
+date: "2020-07-18T08:35:07.322Z"
 author:
-	name: "Yong Lee"
-	# role: "COO"
-	picture: '/assets/authors/Yong.png'
-	# email: "yong@windycitydevs.io"
-	# github: "https://github.com/yhlee-dho"
-	# twitter: "https://twitter.com/YongLee08380800"
-	# linkedin: "https://www.linkedin.com/in/yong-lee-a16430193/"
-opImage: 
-	url: '/assets/yong/Thjorsa.jpg'
+  name: Yong Lee
+  picture: '/assets/yong.jpg'
+ogImage:
+  url: '/assets/next-jamstack.jpg'
 ---
 
 ## Overview
