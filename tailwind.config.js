@@ -9,10 +9,10 @@ module.exports = {
 				success: "#0070f3",
 				cyan: "#79ffe1",
 				blizzardBlue: "#b3ddf2",
-				red: "#ff0000",
+				chicagoRed: "#ff0000",
 				white: "#ffffff",
 				black: "#000000",
-				pink: "eb57a3",
+				pink: "#eb57a3",
 				blue: "#387af5"
 			},
 			spacing: {
